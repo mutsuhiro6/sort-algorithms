@@ -1,13 +1,16 @@
-/* sort algorithms with int array */
+// Sort algorithms with integer arrays
 
-/** bubble sort **/
+// Bubble sort
 void bubble_sort(int *A, int size);
 
-/* insertion sort */
+// Insertion sort
 void insertion_sort(int *A, int size);
 
-/* selection sort */
+// Selection sort
 void selection_sort(int *A, int size);
 
-/* quick sort*/
+// Merge sort
+void merge_sort(int *A, int size);
+
+// Quick sort
 void quick_sort(int *A, int size);
