@@ -3,6 +3,10 @@
 #include "util.h"
 #include "sort.h"
 
+// Bubble Sort Algorithm.
+// Bubble sort compare adjacent elements and swap them
+// if the element with larger index is smaller than with smaller it.
+// Complexity: O(N^2).
 void bubble_sort(int *A, int size)
 {
     int i, j;
