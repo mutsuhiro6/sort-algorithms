@@ -1,5 +1,15 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "util.h"
+
+void shuffle_array(int *A, int size)
+{
+    for (int i = 0; i < size; i++)
+    {
+        int j = rand() % size;
+        swap(&A[i], &A[j]);
+    }
+}
 
 void swap(int *a, int *b)
 {
